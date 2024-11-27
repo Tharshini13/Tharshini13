@@ -35,6 +35,11 @@ body{
         text-decoration: none;
         margin: 5px;
         color: white;
+
+    }
+    #Nav > nav > a:hover{
+        cursor: pointer;
+        color: black;
     }
 
 
@@ -89,14 +94,13 @@ body{
     background-color: #F6F7C4;
     height:160px
 }
-#CCh4{
+
+#footer{
     text-align: center;
 }
 
 #footer > img{
     height: 40px;
-    position: relative;
-    left: 690px;
     padding-top: 10px;
 }
 #footer > p{
@@ -104,10 +108,12 @@ body{
     padding-top: 15px;
     font-size: 15px;
 }
-#footer > p{
-    text-align: center;
-    font-size: 15px;
-}
+
+
+
+
+
+
 
 
 
@@ -115,6 +121,7 @@ body{
 
 @media all and (max-width:500px){
     #Nav{
+       
         display: none;
     }
     #txt{
@@ -124,10 +131,7 @@ body{
     .CB{
         min-height: 700px;
     }
-    #footer > img{
-        position: relative;
-        right:660px;
-    }
+
 }
 
 @media all and (min-width:500px){
@@ -137,3 +141,6 @@ body{
 
 
 }
+
+
+
