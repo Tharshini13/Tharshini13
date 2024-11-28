@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+#Nav{
+    background-color: #A0D683;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+    #Nav > img{
+        width: 150px;
+    }
+    #Nav > h2{
+        color: azure;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    #Nav > nav{
+        background-color: #347928;
+        padding: 20px;
+        border-top-left-radius: 50px;
+    }
+    #Nav > nav > a{
+        text-decoration: none;
+        margin: 5px;
+        color: white;
+
+    }
+    #Nav > nav > a:hover{
+        cursor: pointer;
+        color: black;
+    }
+
+
+#C1 > h1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+#row1{
+    position: relative;
+    left: 190px;
+    top: 20px;
+
+}
+
+#col1{
+    background-color: pink;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px; 
+}
+
+#img1{
+    width: 25px;
+    height: 25px;
+
+}
+#p1{
+    display: inline;
+    font-size: 20px;
+
+    
+}
+#inp1{
+    display: block;
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+
+
+#col2{
+    background-color: pink;
+    position: relative;
+    right: 40px;
+}
+
+#img2{
+    width: 25px;
+    height: 25px;
+
+}
+#p2{
+    display: inline;
+    font-size: 20px;
+    
+}
+#inp2{
+    display: block;
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+#col3{
+    background-color: pink;
+    position: relative;
+    right: 72px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px; 
+}
+
+#btn{
+    height: 174px;
+    width: 378px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: none;
+    background-color: palevioletred;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media all and (max-width:500px){
+        #Nav{
+           
+            display: none;
+        }
+        #col1{
+            border-top-left-radius: 0%;
+            border-bottom-left-radius: 0%;
+            position: relative;
+            right: 200px;
+        }
+        #col2{
+            position: relative;
+            right: 200px;
+            bottom: 33px;
+        }
+        #col3{
+            position: relative;
+            right: 210px;
+            bottom: 65px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        #btn{
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 400px;
+        }
+    }
+
+    @media all and (min-width:500px){
+        .navM{
+            display: none;
+        }
+    }
+    
+    
