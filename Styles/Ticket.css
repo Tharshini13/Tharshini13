@@ -168,6 +168,8 @@ body{
         }
     }
 
+    
+
     @media all and (min-width:500px){
         .navM{
             display: none;
