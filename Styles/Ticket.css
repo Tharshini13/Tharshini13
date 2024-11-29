@@ -79,6 +79,7 @@ body{
     width: 250px;
     height: 35px;
     border-radius: 6px;
+    border-style: none;
 }
 
 
@@ -105,6 +106,13 @@ body{
     width: 250px;
     height: 35px;
     border-radius: 6px;
+    border-style: none;
+}
+#inp2:focus{
+    outline-color: antiquewhite;
+}
+#inp1:focus{
+    outline-color: antiquewhite;
 }
 
 #col3{
@@ -125,6 +133,27 @@ body{
     font-size: 20px;
     font-weight: bolder;
 }
+
+#result{
+    margin-left: 25px;
+}
+
+.card-body2 > img{
+    width: 250px;
+    height: 200px;
+}
+.card-body2 > h3{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#E90074;
+}
+.card-body2 > h4{
+    font-size: 20px;
+}
+
+
+
 
 
 
