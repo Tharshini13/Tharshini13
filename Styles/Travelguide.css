@@ -51,43 +51,18 @@ body{
 
 #row1{
     position: relative;
-    left: 190px;
+    left: 420px;
     top: 20px;
 
 }
-
-#col1{
-    background-color: pink;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px; 
-}
-
-#img1{
-    width: 25px;
-    height: 25px;
-
-}
-#p1{
-    display: inline;
-    font-size: 20px;
-
-    
-}
-#inp1{
-    display: block;
-    margin-top: 10px;
-    width: 250px;
-    height: 35px;
-    border-radius: 6px;
-    border-style: none;
-}
-
 
 
 #col2{
     background-color: pink;
     position: relative;
     right: 40px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px; 
 }
 
 #img2{
@@ -107,6 +82,7 @@ body{
     height: 35px;
     border-radius: 6px;
     border-style: none;
+
 }
 #inp2:focus{
     outline-color: antiquewhite;
@@ -134,46 +110,6 @@ body{
     font-weight: bolder;
 }
 
-#result{
-    margin-left: 25px;
-}
-
-.card-body > img{
-    width: 250px;
-    height: 200px;
-
-}
-.card-body > h3{
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color:#E90074;
-}
-.card-body > h4{
-    font-size: 20px;
-}
-#result2{
-    margin-left: 25px;
-}
-
-.card-body2 > img{
-    width: 250px;
-    height: 200px;
-    position: relative;
-    left: 20px;
-
-}
-.card-body2 > h3{
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color:#E90074;
-}
-.card-body2 > h4{
-    font-size: 20px;
-}
-
-
 
 
 
@@ -195,23 +131,21 @@ body{
            
             display: none;
         }
-        #col1{
-            border-top-left-radius: 0%;
-            border-bottom-left-radius: 0%;
-            position: relative;
-            right: 200px;
-        }
         #col2{
             position: relative;
-            right: 200px;
+            right: 430px;
             bottom: 33px;
+            top: 40px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px; 
         }
         #col3{
             position: relative;
-            right: 210px;
+            right: 440px;
             bottom: 65px;
             border-top-right-radius: 0px;
             border-bottom-right-radius: 0px;
+            top: 8px;
         }
         #btn{
             border-top-right-radius: 0px;
