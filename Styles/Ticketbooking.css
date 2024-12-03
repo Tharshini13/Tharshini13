@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
 
-#Nav{
+#Nav {
     background-color: #A0D683;
     width: 100%;
     min-height: 100px;
@@ -18,41 +18,45 @@ body{
 
 
 }
-    #Nav > img{
-        width: 150px;
-    }
-    #Nav > h2{
-        color: azure;
-        text-shadow: 2px 2px 5px black;
-    }
 
-    #Nav > nav{
-        background-color: #347928;
-        padding: 20px;
-        border-top-left-radius: 50px;
-    }
-    #Nav > nav > a{
-        text-decoration: none;
-        margin: 5px;
-        color: white;
+#Nav>img {
+    width: 150px;
+}
 
-    }
-    #Nav > nav > a:hover{
-        cursor: pointer;
-        color: black;
-    }
+#Nav>h2 {
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+}
+
+#Nav>nav {
+    background-color: #347928;
+    padding: 20px;
+    border-top-left-radius: 50px;
+}
+
+#Nav>nav>a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+
+}
+
+#Nav>nav>a:hover {
+    cursor: pointer;
+    color: black;
+}
 
 
-.row{
+.row {
     padding: 10px;
     padding-left: 120px;
     padding-right: 120px;
 }
 
-#btn{
+#btn {
     margin-left: 610px;
     margin-top: 20px;
-} 
+}
 
 
 
@@ -74,17 +78,17 @@ body{
 
 
 
-    @media all and (max-width:500px){
-        #Nav{          
-            display: none;
-        }
-        
-
-        
+@media all and (max-width:500px) {
+    #Nav {
+        display: none;
     }
-    
-    @media all and (min-width:500px){
-        .navM{
-            display: none;
-        }
+
+
+
+}
+
+@media all and (min-width:500px) {
+    .navM {
+        display: none;
     }
+}

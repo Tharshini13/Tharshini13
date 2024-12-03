@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
 
-#Nav{
+#Nav {
     background-color: #A0D683;
     width: 100%;
     min-height: 100px;
@@ -18,118 +18,122 @@ body{
 
 
 }
-    #Nav > img{
-        width: 150px;
-    }
-    #Nav > h2{
-        color: azure;
-        text-shadow: 2px 2px 5px black;
-    }
 
-    #Nav > nav{
-        background-color: #347928;
-        padding: 20px;
-        border-top-left-radius: 50px;
-    }
-    #Nav > nav > a{
-        text-decoration: none;
-        margin: 5px;
-        color: white;
-
-    }
-    #Nav > nav > a:hover{
-        cursor: pointer;
-        color: black;
-    }
-
-
- 
-.container-fluid{
-    background-color: #A0D683;
+#Nav>img {
+    width: 150px;
 }
 
-#head{
+#Nav>h2 {
     color: azure;
     text-shadow: 2px 2px 5px black;
 }
 
-.CA{
+#Nav>nav {
+    background-color: #347928;
+    padding: 20px;
+    border-top-left-radius: 50px;
+}
+
+#Nav>nav>a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+
+}
+
+#Nav>nav>a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.container-fluid {
+    background-color: #A0D683;
+}
+
+#head {
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+}
+
+.CA {
     background-color: #DEAA79;
 }
 
-#CAhead{
+#CAhead {
     color: #3D3BF3;
-    text-shadow: 2px 2px 5px white ;
+    text-shadow: 2px 2px 5px white;
     font-weight: bold;
 }
 
-#CApara{
+#CApara {
     color: white;
     font-size: 17px;
 }
 
-.CB{
+.CB {
     background-color: #FFE6A9;
-    
+
 }
 
-#CBh2{
-    color:#3D3BF3 ;
-    text-shadow: 2px 2px 5px white ;
+#CBh2 {
+    color: #3D3BF3;
+    text-shadow: 2px 2px 5px white;
     font-weight: bold;
 }
 
-.CBh4{
+.CBh4 {
     color: #6892D5;
 }
 
-.CBpara{
+.CBpara {
     color: black;
 }
 
-.CC{
+.CC {
     background-color: #F6F7C4;
-    height:160px
+    height: 160px
 }
 
-#footer{
+#footer {
     text-align: center;
 }
 
 
-#footer > img{
+#footer>img {
     height: 40px;
     padding-top: 10px;
 }
-#footer > p{
+
+#footer>p {
 
     padding-top: 15px;
     font-size: 15px;
 }
 
 
-@media all and (max-width:500px){
-    #Nav{
-       
+@media all and (max-width:500px) {
+    #Nav {
+
         display: none;
     }
-    #txt{
+
+    #txt {
         position: relative;
         top: 220px;
     }
-    .CB{
+
+    .CB {
         min-height: 700px;
     }
 
 }
 
-@media all and (min-width:500px){
-    .navM{
+@media all and (min-width:500px) {
+    .navM {
         display: none;
     }
 
 
 }
-
-
-

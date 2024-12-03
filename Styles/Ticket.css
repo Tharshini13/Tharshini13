@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
 
-#Nav{
+#Nav {
     background-color: #A0D683;
     width: 100%;
     min-height: 100px;
@@ -18,62 +18,68 @@ body{
 
 
 }
-    #Nav > img{
-        width: 150px;
-    }
-    #Nav > h2{
-        color: azure;
-        text-shadow: 2px 2px 5px black;
-    }
 
-    #Nav > nav{
-        background-color: #347928;
-        padding: 20px;
-        border-top-left-radius: 50px;
-    }
-    #Nav > nav > a{
-        text-decoration: none;
-        margin: 5px;
-        color: white;
+#Nav>img {
+    width: 150px;
+}
 
-    }
-    #Nav > nav > a:hover{
-        cursor: pointer;
-        color: black;
-    }
+#Nav>h2 {
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+}
+
+#Nav>nav {
+    background-color: #347928;
+    padding: 20px;
+    border-top-left-radius: 50px;
+}
+
+#Nav>nav>a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+
+}
+
+#Nav>nav>a:hover {
+    cursor: pointer;
+    color: black;
+}
 
 
-#C1 > h1{
+#C1>h1 {
     text-align: center;
     position: relative;
     top: 20px;
 }
 
-#row1{
+#row1 {
     position: relative;
     left: 190px;
     top: 20px;
 
 }
 
-#col1{
+#col1 {
     background-color: pink;
     border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px; 
+    border-bottom-left-radius: 60px;
 }
 
-#img1{
+#img1 {
     width: 25px;
     height: 25px;
 
 }
-#p1{
+
+#p1 {
     display: inline;
     font-size: 20px;
 
-    
+
 }
-#inp1{
+
+#inp1 {
     display: block;
     margin-top: 10px;
     width: 250px;
@@ -84,23 +90,25 @@ body{
 
 
 
-#col2{
+#col2 {
     background-color: pink;
     position: relative;
     right: 40px;
 }
 
-#img2{
+#img2 {
     width: 25px;
     height: 25px;
 
 }
-#p2{
+
+#p2 {
     display: inline;
     font-size: 20px;
-    
+
 }
-#inp2{
+
+#inp2 {
     display: block;
     margin-top: 10px;
     width: 250px;
@@ -108,22 +116,24 @@ body{
     border-radius: 6px;
     border-style: none;
 }
-#inp2:focus{
-    outline-color: antiquewhite;
-}
-#inp1:focus{
+
+#inp2:focus {
     outline-color: antiquewhite;
 }
 
-#col3{
+#inp1:focus {
+    outline-color: antiquewhite;
+}
+
+#col3 {
     background-color: pink;
     position: relative;
     right: 72px;
     border-top-right-radius: 60px;
-    border-bottom-right-radius: 60px; 
+    border-bottom-right-radius: 60px;
 }
 
-#btn{
+#btn {
     height: 174px;
     width: 378px;
     border-top-right-radius: 60px;
@@ -134,42 +144,47 @@ body{
     font-weight: bolder;
 }
 
-#result{
+#result {
     margin-left: 25px;
 }
 
-.card-body > img{
+.card-body>img {
     width: 250px;
     height: 200px;
 
 }
-.card-body > h3{
+
+.card-body>h3 {
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color:#E90074;
+    color: #E90074;
 }
-.card-body > h4{
+
+.card-body>h4 {
     font-size: 20px;
 }
-#result2{
+
+#result2 {
     margin-left: 25px;
 }
 
-.card-body2 > img{
+.card-body2>img {
     width: 250px;
     height: 200px;
     position: relative;
     left: 20px;
 
 }
-.card-body2 > h3{
+
+.card-body2>h3 {
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color:#E90074;
+    color: #E90074;
 }
-.card-body2 > h4{
+
+.card-body2>h4 {
     font-size: 20px;
 }
 
@@ -190,42 +205,44 @@ body{
 
 
 
-    @media all and (max-width:500px){
-        #Nav{
-           
-            display: none;
-        }
-        #col1{
-            border-top-left-radius: 0%;
-            border-bottom-left-radius: 0%;
-            position: relative;
-            right: 200px;
-        }
-        #col2{
-            position: relative;
-            right: 200px;
-            bottom: 33px;
-        }
-        #col3{
-            position: relative;
-            right: 210px;
-            bottom: 65px;
-            border-top-right-radius: 0px;
-            border-bottom-right-radius: 0px;
-        }
-        #btn{
-            border-top-right-radius: 0px;
-            border-bottom-right-radius: 0px;
-            width: 400px;
-        }
+@media all and (max-width:500px) {
+    #Nav {
+
+        display: none;
     }
 
-    
-
-    @media all and (min-width:500px){
-        .navM{
-            display: none;
-        }
+    #col1 {
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+        position: relative;
+        right: 200px;
     }
-    
-    
+
+    #col2 {
+        position: relative;
+        right: 200px;
+        bottom: 33px;
+    }
+
+    #col3 {
+        position: relative;
+        right: 210px;
+        bottom: 65px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #btn {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 400px;
+    }
+}
+
+
+
+@media all and (min-width:500px) {
+    .navM {
+        display: none;
+    }
+}

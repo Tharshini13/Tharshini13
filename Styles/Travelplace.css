@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
 
-#Nav{
+#Nav {
     background-color: #A0D683;
     width: 100%;
     min-height: 100px;
@@ -18,198 +18,202 @@ body{
 
 
 }
-    #Nav > img{
-        width: 150px;
-    }
-    #Nav > h2{
-        color: azure;
-        text-shadow: 2px 2px 5px black;
-    }
 
-    #Nav > nav{
-        background-color: #347928;
-        padding: 20px;
-        border-top-left-radius: 50px;
-    }
-    #Nav > nav > a{
-        text-decoration: none;
-        margin: 5px;
-        color: white;
+#Nav>img {
+    width: 150px;
+}
 
-    }
-    #Nav > nav > a:hover{
-        cursor: pointer;
-        color: black;
-    }
+#Nav>h2 {
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+}
 
-#row1{
+#Nav>nav {
+    background-color: #347928;
+    padding: 20px;
+    border-top-left-radius: 50px;
+}
+
+#Nav>nav>a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+
+}
+
+#Nav>nav>a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#row1 {
     position: relative;
     left: 80px;
 }
 
-#card1{
+#card1 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card1 > h4{
+#card1>h4 {
     text-align: center;
 }
 
-#card1 > img{
+#card1>img {
     width: 200px;
     height: 250px;
 }
 
-#card2{
+#card2 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card2 > h4{
+#card2>h4 {
     text-align: center;
 }
 
-#card2 > img{
+#card2>img {
     width: 200px;
     height: 250px;
 }
 
-#card3{
+#card3 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card3 > h4{
+#card3>h4 {
     text-align: center;
 }
 
-#card3 > img{
+#card3>img {
     width: 200px;
     height: 250px;
 }
 
-#card4{
+#card4 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card4 > h4{
+#card4>h4 {
     text-align: center;
 }
 
-#card4 > img{
+#card4>img {
     width: 200px;
     height: 250px;
 }
 
-#card5{
+#card5 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card5 > h4{
+#card5>h4 {
     text-align: center;
 }
 
-#card5 > img{
+#card5>img {
     width: 200px;
     height: 250px;
 }
 
-#row2{
+#row2 {
     position: relative;
     left: 80px;
     bottom: 40px;
 }
 
 
-#card6{
+#card6 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card6 > h4{
+#card6>h4 {
     text-align: center;
 }
 
-#card6 > img{
+#card6>img {
     width: 200px;
     height: 250px;
 }
 
-#card7{
+#card7 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card7 > h4{
+#card7>h4 {
     text-align: center;
 }
 
-#card7 > img{
+#card7>img {
     width: 200px;
     height: 250px;
 }
 
-#card8{
+#card8 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card8 > h4{
+#card8>h4 {
     text-align: center;
 }
 
-#card8 > img{
+#card8>img {
     width: 200px;
     height: 250px;
 }
 
-#card9{
+#card9 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card9 > h4{
+#card9>h4 {
     text-align: center;
 }
 
-#card9 > img{
+#card9>img {
     width: 200px;
     height: 250px;
 }
 
-#card10{
+#card10 {
     padding: 15px;
     margin: 50px;
     width: 230px;
     height: 340px;
 }
 
-#card10 > h4{
+#card10>h4 {
     text-align: center;
 }
 
-#card10 > img{
+#card10>img {
     width: 200px;
     height: 250px;
 }
@@ -230,18 +234,17 @@ body{
 
 
 
-    @media all and (max-width:500px){
-        #Nav{
-           
-            display: none;
-        }
+@media all and (max-width:500px) {
+    #Nav {
+
+        display: none;
     }
+}
 
-    
 
-    @media all and (min-width:500px){
-        .navM{
-            display: none;
-        }
+
+@media all and (min-width:500px) {
+    .navM {
+        display: none;
     }
-    
+}

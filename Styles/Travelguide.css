@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
 
-#Nav{
+#Nav {
     background-color: #A0D683;
     width: 100%;
     min-height: 100px;
@@ -18,38 +18,42 @@ body{
 
 
 }
-    #Nav > img{
-        width: 150px;
-    }
-    #Nav > h2{
-        color: azure;
-        text-shadow: 2px 2px 5px black;
-    }
 
-    #Nav > nav{
-        background-color: #347928;
-        padding: 20px;
-        border-top-left-radius: 50px;
-    }
-    #Nav > nav > a{
-        text-decoration: none;
-        margin: 5px;
-        color: white;
+#Nav>img {
+    width: 150px;
+}
 
-    }
-    #Nav > nav > a:hover{
-        cursor: pointer;
-        color: black;
-    }
+#Nav>h2 {
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+}
+
+#Nav>nav {
+    background-color: #347928;
+    padding: 20px;
+    border-top-left-radius: 50px;
+}
+
+#Nav>nav>a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+
+}
+
+#Nav>nav>a:hover {
+    cursor: pointer;
+    color: black;
+}
 
 
-#C1 > h1{
+#C1>h1 {
     text-align: center;
     position: relative;
     top: 20px;
 }
 
-#row1{
+#row1 {
     position: relative;
     left: 420px;
     top: 20px;
@@ -57,25 +61,27 @@ body{
 }
 
 
-#col2{
+#col2 {
     background-color: pink;
     position: relative;
     right: 40px;
     border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px; 
+    border-bottom-left-radius: 60px;
 }
 
-#img2{
+#img2 {
     width: 25px;
     height: 25px;
 
 }
-#p2{
+
+#p2 {
     display: inline;
     font-size: 20px;
-    
+
 }
-#inp2{
+
+#inp2 {
     display: block;
     margin-top: 10px;
     width: 250px;
@@ -84,22 +90,24 @@ body{
     border-style: none;
 
 }
-#inp2:focus{
-    outline-color: antiquewhite;
-}
-#inp1:focus{
+
+#inp2:focus {
     outline-color: antiquewhite;
 }
 
-#col3{
+#inp1:focus {
+    outline-color: antiquewhite;
+}
+
+#col3 {
     background-color: pink;
     position: relative;
     right: 72px;
     border-top-right-radius: 60px;
-    border-bottom-right-radius: 60px; 
+    border-bottom-right-radius: 60px;
 }
 
-#btn{
+#btn {
     height: 174px;
     width: 378px;
     border-top-right-radius: 60px;
@@ -126,40 +134,41 @@ body{
 
 
 
-    @media all and (max-width:500px){
-        #Nav{
-           
-            display: none;
-        }
-        #col2{
-            position: relative;
-            right: 430px;
-            bottom: 33px;
-            top: 40px;
-            border-top-left-radius: 0px;
-            border-bottom-left-radius: 0px; 
-        }
-        #col3{
-            position: relative;
-            right: 440px;
-            bottom: 65px;
-            border-top-right-radius: 0px;
-            border-bottom-right-radius: 0px;
-            top: 8px;
-        }
-        #btn{
-            border-top-right-radius: 0px;
-            border-bottom-right-radius: 0px;
-            width: 400px;
-        }
+@media all and (max-width:500px) {
+    #Nav {
+
+        display: none;
     }
 
-    
-
-    @media all and (min-width:500px){
-        .navM{
-            display: none;
-        }
+    #col2 {
+        position: relative;
+        right: 430px;
+        bottom: 33px;
+        top: 40px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
     }
-    
-    
+
+    #col3 {
+        position: relative;
+        right: 440px;
+        bottom: 65px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        top: 8px;
+    }
+
+    #btn {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 400px;
+    }
+}
+
+
+
+@media all and (min-width:500px) {
+    .navM {
+        display: none;
+    }
+}

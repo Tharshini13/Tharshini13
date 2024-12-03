@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-#Nav{
+#Nav {
     background-color: #A0D683;
     width: 100%;
     min-height: 100px;
@@ -16,47 +16,51 @@ body{
     align-items: center;
 
 }
-    #Nav > img{
-        width: 150px;
-    }
-    #Nav > h2{
-        color: azure;
-        text-shadow: 2px 2px 5px black;
-    }
 
-    #Nav > nav{
-        background-color: #347928;
-        padding: 20px;
-        border-top-left-radius: 50px;
-    }
-    #Nav > nav > a{
-        text-decoration: none;
-        margin: 5px;
-        color: white;
+#Nav>img {
+    width: 150px;
+}
 
-    }
-    #Nav > nav > a:hover{
-        cursor: pointer;
-        color: black;
-    }
+#Nav>h2 {
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+}
+
+#Nav>nav {
+    background-color: #347928;
+    padding: 20px;
+    border-top-left-radius: 50px;
+}
+
+#Nav>nav>a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+
+}
+
+#Nav>nav>a:hover {
+    cursor: pointer;
+    color: black;
+}
 
 
 
 
-#D1{
+#D1 {
     width: 100%;
     height: 800px;
     background-image: url("../Assets/sea.jpg");
 }
 
 
-h1{
+h1 {
     text-align: center;
     padding-top: 50px;
     color: white;
 }
 
-.CA{
+.CA {
     padding-top: 60px;
     padding-left: 270px;
     display: flex;
@@ -67,49 +71,49 @@ h1{
 
 
 
-#col1{
+#col1 {
     padding: 55px;
-    border: 1px solid ;
+    border: 1px solid;
     height: 300px;
     width: 480px;
 }
 
-#col1 > img{
+#col1>img {
     height: 25px;
     display: inline;
     margin-bottom: 15px;
 }
 
-#col1 > p{
+#col1>p {
     display: inline;
 }
 
-#col1 > h2{
+#col1>h2 {
     margin-bottom: 15px;
     font-weight: bold;
 }
 
-#col2{
-    border: 1px solid ;
+#col2 {
+    border: 1px solid;
     padding: 40px;
     position: relative;
     right: 140px;
 }
 
-#col2 > input{
+#col2>input {
     display: block;
     height: 50px;
     width: 580px;
-    border-radius: 6px; 
+    border-radius: 6px;
     margin-bottom: 30px;
 }
 
-#col2 > h2{
+#col2>h2 {
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-#col2 > button {
+#col2>button {
     background-color: blue;
     color: white;
     border: none;
@@ -128,22 +132,25 @@ h1{
 
 
 
-@media all and (max-width:500px){
-    #col2 > input{
+@media all and (max-width:500px) {
+    #col2>input {
         width: 300px;
         height: 40px;
     }
-    .CA{
+
+    .CA {
         position: relative;
         right: 260px;
         width: 700px;
     }
-    #col2{
+
+    #col2 {
         position: relative;
         left: 1px;
     }
-    #Nav{
-           
+
+    #Nav {
+
         display: none;
     }
 
@@ -151,14 +158,8 @@ h1{
 
 }
 
-@media all and (min-width:500px){
-    .navM{
+@media all and (min-width:500px) {
+    .navM {
         display: none;
     }
 }
-
-
-
-
-
-
